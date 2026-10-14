@@ -221,7 +221,7 @@ btn_player1.addEventListener("click", () => {
 
     username1.innerText = nombre1.value;
     personaje1.innerText = pj1;
-    img1.src = `./public/img/${pj1}/base.png`;
+    img1.src = `/public/img/${pj1}/base.png`;
 
     if (jugador1 && jugador2) {
         iniciar_combate();
@@ -251,7 +251,7 @@ btn_player2.addEventListener("click", () => {
 
     username2.innerText = nombre2.value;
     personaje2.innerText = pj2;
-    img2.src = `./public/img/${pj2}/base.png`;
+    img2.src = `/public/img/${pj2}/base.png`;
 
     if (jugador1 && jugador2) {
         iniciar_combate();
